@@ -1,1 +1,52 @@
-dragon
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARO ONLINE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {
+        background-image: linear-gradient(#002142, #607a94);
+      }
+    </style>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+ <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+ 
+ 
+ <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+ 
+ <script>
+   // Your web app's Firebase configuration
+   var firebaseConfig = {
+     apiKey: "AIzaSyBMPJwhROPteauQMVjmKro9EvXLjxw-_tg",
+     authDomain: "linkin-b1f12.firebaseapp.com",
+     databaseURL: "https://linkin-b1f12.firebaseio.com",
+     projectId: "linkin-b1f12",
+     storageBucket: "linkin-b1f12.appspot.com",
+     messagingSenderId: "619279660923",
+     appId: "1:619279660923:web:f063d94e9318fef686efde"
+   };
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+ </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="//unpkg.com/navigo@6"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <article id="app">
+        <login-screen></login-screen>
+    </article>
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
