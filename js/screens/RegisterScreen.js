@@ -91,7 +91,7 @@ class RegisterScreen extends BaseComponent {
         <section class="register-screen">
         <form class="form-register">
                 <div class="name-game"><b>CARO ONLINE</b></div>
-                <img src="https://lh3.googleusercontent.com/R2NTrDbjejFDmh-ejLbTZyIv5mY6bN3opl1rfVKibNc-AxlCD9h62lE5yrab0p3babg">
+                <img src="./img/logo.png">
                 <input-wrapper class="name" label="Name" type="text" error="${this.state.errors.name}" value="${this.state.data.name}"></input-wrapper>
                 <input-wrapper class="email" label="Email" type="email" error="${this.state.errors.email}" value="${this.state.data.email}"></input-wrapper>
                 <input-wrapper class="password" label="Password" type="password" error="${this.state.errors.password}" value="${this.state.data.password}"></input-wrapper>
